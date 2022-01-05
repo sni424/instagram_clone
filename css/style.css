@@ -1,0 +1,209 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: rgb(250, 250, 250);
+    margin: 0;
+    padding: 0;
+}
+article{
+    width: 100%;
+    height: 812px;
+    margin: 0 auto;
+}
+.add_form{
+    position:absolute;
+    width: 935px;
+    height: 748px;
+    display: flex;
+    left: 25%;
+    top: 3%;
+    align-items: center;
+    justify-content: center;
+}
+.phone_img{
+    position: relative;
+    display: flex;
+    width: 454px;
+    height: 618px;
+}
+.img_add{
+    position: absolute;
+    display: flex;
+    width: 240px;
+    height: 427px;
+    margin: 100px 0 0 150px;
+}
+.img_one{
+    position: absolute;
+}
+.login_form{
+    width: 350px;
+    height: 736px;
+    margin-top: 12px;
+}
+.login_main{
+    margin-top: 90px;
+    height: 360px;
+    align-items: center;
+    background-color: #fff;
+    border: solid 1px #dbdbdb;
+}
+.logo_text{
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px;
+    margin: 24px 0 50px 0;
+}
+.input_class{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 0 0;
+}
+.input_color{
+    height: 30px;
+    width: 260px;
+    background: #fafafa;
+}
+.login_down{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: inherit;
+}
+.or_font{
+    color: #8e8e8e;
+    font-size: 13px;
+    margin: 0 20px 0 20px;
+}
+.radius_class{
+    width: 100px;
+    border: solid 1px;
+    color: #dbdbdb;
+}
+#login_text{
+    display: flex;
+    height: 30px;
+    margin: 8px 40px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-style: inherit;
+    font-size: 15px;
+    background-color: rgb(178, 223, 252);
+    border-radius: 3px;
+}
+.facebook{
+    margin: 24px 0 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.facebook a{
+        font-size: 14px;
+    font-style: inherit;
+    color: #385185;
+    font-weight: 800;
+}
+.password_forget{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.password_forget a{
+    color: #00376b;
+    font-size: 12px;
+}
+.sign_up{
+    width: 348px;
+    height: 41px;
+    padding: 10px 0 10px 0;
+    margin-top: 10px;
+    align-items: center;
+    background-color: #fff;
+    border: solid 1px #dbdbdb;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+.sign_up_first{
+    color: #0095f6; 
+    font-weight: 800;
+}
+.download_text{
+    margin: 20px 0 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-style: inherit;
+}
+.download_link{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.apple{
+    width: 136px;
+    height: 40px;
+}
+.playstore{
+    width: 136px;
+    height: 40px;
+}
+
+footer{
+    margin-top: -30px;
+    background-color: rgb(250, 250, 250);
+    height: 157px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+#big_footer{
+    width: 100%;
+}
+.text_footer{
+    list-style: none;
+    text-decoration: none;
+    font: inherit;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(142, 142, 142);
+    display: flex;
+}
+.text_footer li{
+    padding-left: 15px;
+}
+.first_flex{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second_flex{
+    margin-top: -15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#small_footer{
+    margin-top: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(142, 142, 142);
+}
