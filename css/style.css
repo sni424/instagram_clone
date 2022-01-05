@@ -57,7 +57,7 @@ article{
     align-items: center;
     font-family: 'Dancing Script', cursive;
     font-size: 32px;
-    margin: 24px 0 50px 0;
+    margin: 24px 0 35px 0;
 }
 .input_class{
     display: flex;
@@ -69,6 +69,8 @@ article{
     height: 30px;
     width: 260px;
     background: #fafafa;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
 }
 .login_down{
     margin-top: 15px;
@@ -159,6 +161,7 @@ article{
 .playstore{
     width: 136px;
     height: 40px;
+    padding-left: 10px;
 }
 
 footer{
@@ -206,4 +209,20 @@ footer{
 a{
     text-decoration: none;
     color: rgb(142, 142, 142);
+}
+.show{
+    z-index: 2;
+	transition-property: opacity;
+    transition-duration: 1;
+    opacity: 1;
+}
+.disappeared {
+    z-index: 1;
+    transition-property: opacity;
+    transition-duration: 2;
+    opacity: 0.2;
+}
+.show .disappeared{
+    opacity: 1;
+    visibility: visible;
 }
