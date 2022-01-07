@@ -92,7 +92,16 @@ input:focus {outline:none;}
     border: solid 1px;
     color: #dbdbdb;
 }
-#login_text{
+.login_texttwo{
+    display: flex;
+    height: 30px;
+    margin: 8px 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: #0095f6;
+    border-radius: 3px;
+}
+.login_text{
     display: flex;
     height: 30px;
     margin: 8px 40px;
