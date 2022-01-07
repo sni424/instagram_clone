@@ -15,13 +15,13 @@
     <article>
         <div class="add_form">
             <div class="phone_img">
-                <img src="/img/phone.png" alt="phone_img">
+                <img src="img/phone.png" alt="phone_img">
                 <div class="img_add">
-                    <img class="img_one" src="/img/instagram_1.jpg" alt="img1">
-                    <img class="img_one" src="/img/instagram_2.jpg" alt="img2">
-                    <img class="img_one" src="/img/instagram_3.jpg" alt="img3">
-                    <img class="img_one" src="/img/instagram_4.jpg" alt="img4">
-                    <img class="img_one" src="/img/instagram_5.jpg" alt="img5">
+                    <img class="img_one" src="img/instagram_1.jpg" alt="img1">
+                    <img class="img_one" src="img/instagram_2.jpg" alt="img2">
+                    <img class="img_one" src="img/instagram_3.jpg" alt="img3">
+                    <img class="img_one" src="img/instagram_4.jpg" alt="img4">
+                    <img class="img_one" src="img/instagram_5.jpg" alt="img5">
                 </div>
             </div>
             <div class="login_form">
@@ -29,10 +29,14 @@
                     <div class="logo_text">
                         <h1>Instagram</h1>
                     </div>
-                    <div class="input_class"><input class="input_color" type="text" placeholder="전화번호,사용자 이름 또는 이메일">
-                    </div>
-                    <div class="input_class"><input class="input_color" type="password" placeholder="비밀번호"></div>
-                    <div id="login_text">로그인</div>
+                    <form class="login_first">
+                        <div class="input_class"><input class="input_color" id=first_value type="text"
+                                placeholder="전화번호,사용자 이름 또는 이메일">
+                        </div>
+                        <div class="input_class"><input class="input_color" id=second_value type="password"
+                                placeholder="비밀번호"></div>
+                        <div id="login_text"><button id="button_login">로그인</button></div>
+                    </form>
                     <div class="login_down">
                         <div class="radius_class"></div>
                         <div class="or_font">또는</div>
