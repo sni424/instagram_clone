@@ -37,6 +37,8 @@ article{
 }
 .img_one{
     position: absolute;
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
 }
 .login_form{
     width: 350px;
@@ -72,6 +74,7 @@ article{
     border-radius: 3px;
     border: 1px solid #dbdbdb;
 }
+input:focus {outline:none;}
 .login_down{
     margin-top: 15px;
     display: flex;
@@ -95,11 +98,16 @@ article{
     margin: 8px 40px;
     align-items: center;
     justify-content: center;
-    color: white;
-    font-style: inherit;
-    font-size: 15px;
     background-color: rgb(178, 223, 252);
     border-radius: 3px;
+}
+#button_login{
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: white;
+    font-style: inherit;
+    font-size: 14px;
+    font-weight: 400;
 }
 .facebook{
     margin: 24px 0 20px 0;
@@ -211,18 +219,8 @@ a{
     color: rgb(142, 142, 142);
 }
 .show{
-    z-index: 2;
-	transition-property: opacity;
-    transition-duration: 1;
     opacity: 1;
 }
 .disappeared {
-    z-index: 1;
-    transition-property: opacity;
-    transition-duration: 2;
-    opacity: 0.2;
-}
-.show .disappeared{
-    opacity: 1;
-    visibility: visible;
+    opacity: 0;
 }
