@@ -32,9 +32,26 @@ const first_Input = document.getElementById("first_value");
 const second_Input = document.getElementById("second_value");
 const login_Button = document.querySelector(".login_text");
 
-function login() {
-    if (first_Input.value === "insta_clone" && second_Input.value === "12345");
-    login_Button.style.backgroundcolor("red");
+console.log(first_Input.value.length);
+console.log(first_Input);
+console.log(second_Input);
+function login(event) {
+    event.preventDefault();
+    if (first_Input.value === "insta_clone" || second_Input.value === "12345") {
+        location.href = "main.html";
+    } else {
+        alert("아이디 혹은 비밀번호를 다시한번 확인해주세요.")
+    }
 }
 
+function changeColor(event) {
+    event.preventDefault();
+    if (first_Input.value === "insta_clone" && second_Input.value === "12345") {
+        login_Button.style.background = "rgba(var(--d69,0,149,246),1)";
+    } else if (first_Input.value !== "insta_clone" || second_Input.value !== "12345") {
+        login_Button.style.background = "rgb(178, 223, 252)";
+    }
+
+}
+login_Form.addEventListener("keyup", changeColor);
 login_Form.addEventListener("submit", login);
