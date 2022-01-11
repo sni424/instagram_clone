@@ -1,0 +1,108 @@
+body{
+    background-color: rgba(var(--b3f,250,250,250),1);
+    margin: 0;
+    padding: 0;
+}
+.navi_bar{
+    margin-top: 0px;
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.first_box{
+    width: 960px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#insta_logo{
+    margin-left: 10px;
+}
+.img_first{
+    margin-left: 75px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img_first img{
+    padding-top: 5px;
+    padding-left:7px;
+    padding-right:7px;
+}
+.img_1{
+    padding-right: -15px;
+}
+.img_6{
+    margin-right: -150px;
+}
+.img_size{
+    width: 13%;
+}
+.img_tag{
+    margin-top: 10px;
+}
+.input_div{
+    background: #efefef;
+}
+.first_input{
+    width: 268px;
+    height: 36px;
+    background-color: #efefef;
+    border: solid 1px #efefef;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-left: 220px;
+}
+input:focus {outline:none;}/*검색창 클릭시 바깥 테두리 삭제*/
+section{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.first_main{
+    width: 935px;
+    padding-left: 480px;
+    position: relative;
+    padding-top: 30px;
+    height: 100%;
+    display: flex;
+}
+.second_main{
+    width: 614px;
+}
+.follower_div{
+    display: flex;
+    background: #fff;
+    height: 118px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+}
+.follower_img{
+    width: 56px;
+    height: 56px;
+    display: flex;
+}
+.follower_div img{
+    padding: 0 10px;
+
+}
+.upload_stuff{
+    display: flex;
+    background: #fff;
+    margin-top: 30px;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+}
+.third_main{
+    margin-left: 20px;
+    width: 293px;
+    height: 969px;
+    background: #fff;
+}
