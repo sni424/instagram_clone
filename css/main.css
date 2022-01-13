@@ -42,7 +42,8 @@ body{
     margin-right: -150px;
 }
 .img_size{
-    width: 13%;
+    width: 15%;
+    border-radius: 70%;
 }
 .img_tag{
     margin-top: 10px;
@@ -84,18 +85,20 @@ section{
     align-items: center;
     justify-content: center;
     border: 1px solid rgba(var(--b6a,219,219,219),1);
+    overflow: hidden;
 }
 .follower_img{
     width: 56px;
     height: 56px;
     display: flex;
+    margin-top: -15px;
 }
 .follower_div img{
     padding: 0 10px;
 
 }
 .upload_stuff{
-    display: flex;
+    width: 614px;
     background: #fff;
     margin-top: 30px;
     border: 1px solid rgba(var(--b6a,219,219,219),1);
@@ -105,4 +108,108 @@ section{
     width: 293px;
     height: 969px;
     background: #fff;
+}
+.follower_story{
+    display: flex;
+    text-align: center;
+}
+.story_username{
+    font-size: 12px;
+    text-align: center;
+    line-height: 16px;
+    display: block;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 7px;
+}
+.upload_1{
+    display: flex;
+    border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+.img_name{
+    display: inherit;
+    align-items: center;
+    justify-content: 32px;
+    padding: 5px;
+    margin-left: 10px;
+}
+.img_name div{
+    padding-left: 15px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.img_size1{
+    width: 32px;
+    height: 32px;
+    border-radius: 70%;
+}
+.more_information{
+    display: flex;
+    margin-right: 15px;
+    align-items: center;
+}
+.more_button{
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+.button_font{
+    font-size: 18px;
+    font-weight: 600;
+}
+.upload_2{
+    height: 614px;
+    display:block;
+    align-items: center;
+    justify-content: center;
+
+}
+.upload2_img{
+    width: 614px;
+    height: 614px;
+}
+.upload_8{
+    border-top: 1px solid rgba(var(--b6a,219,219,219),1);
+}
+.upload_3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.upload3_first{
+    display: inherit;
+    margin-top: 8px;
+}
+.upload3_first button{
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+.upload3_first img{
+    padding-left: 7px;
+}
+.img_message{
+    padding-left: 3px;
+}
+.upload3_second{
+    font-size: 3%;
+    position: absolute;
+    margin: -30px 0 0 280px;
+    color: rgb(168, 168, 168);
+    font-weight: 900;
+}
+.upload3_third{
+    margin-right: 5px;
+}
+.upload_4{
+    display: flex;
+    font-weight: 600;
+    color: rgba(var(--i1d,38,38,38),1);
+    font-size: 14px;
+    margin-left: 15px;
+}
+.like_count{
+    margin-left: 5px;
 }
