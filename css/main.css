@@ -163,20 +163,16 @@ section{
     font-weight: 600;
 }
 .upload_2{
-    height: 614px;
-    display:block;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    overflow: hidden;
-    overflow-x: auto;
-}
-.upload_2::-webkit-scrollbar{
-    display: none;
-}
-.upload2_img{
     width: 614px;
     height: 614px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+.upload2_img{
+    width: inherit;
+    height: 614px;
+    float: left;
 }
 .upload_3{
     display: flex;
@@ -405,4 +401,73 @@ section{
 }
 .dis_none{
     visibility:hidden;
+}
+.upload6-first{
+    display: flex;
+    padding-left: 4px;
+    padding-bottom: 5px;
+}
+.upload6-first div:first-child{
+    text-decoration : none;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    padding-right: 8px;
+}
+.upload6-first div:last-child{
+    font-size: 14px;
+}
+.next_button1{
+    position: absolute;
+    margin-left: 580px;
+    background-color: white;
+    color: #efefef;
+    border: solid 1px;
+    border-radius: 70%;
+}
+.next_button1 button{
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+.pre_button1{
+    position: absolute;
+    margin-left: 5px;
+    background-color: white;
+    color: #efefef;
+    border: solid 1px;
+    border-radius: 70%;
+}
+.pre_button1 button{
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+.container{
+    display: flex;
+}
+.hiden{
+    visibility: hidden;
+}
+.pre_button2{
+    position: absolute;
+    background-color: white;
+    color: #efefef;
+    border: solid 1px;
+    border-radius: 70%;
+    margin: 300px 0 0 10px;
+}
+.pre_button2 button{
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+.next_button2{
+    position: absolute;
+    margin: 300px 0 0 580px;
+    background-color: white;
+    color: #efefef;
+    border: solid 1px;
+    border-radius: 70%;
+}
+.next_button2 button{
+    background-color: transparent;
+    border: 1px solid transparent;
 }
