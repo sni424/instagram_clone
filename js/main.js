@@ -7,7 +7,6 @@ const $pre_button2 = document.querySelector(".pre_button1 button");
 const $container = document.querySelector(".container");
 const $max = $container.childElementCount - 6
 const $hiden = "hiden";
-
 let withMax = 0
 let length = -82;
 
@@ -22,8 +21,6 @@ function nextMove() {
         $pre_button1.classList.remove($hiden);
     }
 }
-
-
 
 function preMove() {
     let now = parseInt(window.getComputedStyle($container).getPropertyValue("margin-left"));
@@ -44,9 +41,46 @@ $pre_button2.addEventListener("click", preMove);
 ///////업로드 이미지 슬라이드/////
 ////////////////////////////////
 
+const $img_div = document.querySelector(".img_div");
+const $img_pre = document.querySelector(".pre_button2");
+const $img_next = document.querySelector(".next_button2");
+const img_count = document.querySelectorAll(".upload_2 img");
 
+if (window.getComputedStyle($img_div).getPropertyValue("margin-left") === "0px") {
+    $img_pre.classList.add($hiden);
+}
 
+let count_img = 0;
+let img_length = 0;
+console.log(img_count.length);
 
+function preImg() {
+    let now2 = parseInt(window.getComputedStyle($img_div).getPropertyValue("margin-left"));
+    if (window.getComputedStyle($img_div).getPropertyValue("margin-left") === "0px") {
+        $img_pre.classList.add($hiden);
+        return
+    } else {
+        now2 += 614;
+        img_length = 0;
+        $img_div.style.marginLeft = `${now2}px`;
+        $img_next.classList.remove($hiden);
+    }
+}
+
+function nextImg() {
+    if (window.getComputedStyle($img_div).getPropertyValue("margin-left") === "-2456px") {
+        $img_next.classList.add($hiden);
+        return;
+    } else {
+        console.log()
+        $img_div.style.marginLeft = `${img_length}px`;
+        img_length += -614;
+        $img_pre.classList.remove($hiden);
+    }
+}
+
+$img_pre.addEventListener("click", preImg);
+$img_next.addEventListener("click", nextImg);
 
 /////////////////////////////////////
 ////////////////댓글/////////////////
